@@ -1,7 +1,5 @@
 # creating and algorithim for the addition of 2 digit numbers
 # take in 2 numbers x and y
-from logging import NullHandler
-
 
 entered = False
 while entered == False:
@@ -41,3 +39,4 @@ if s0 == 0:
     s0 = ""
 print("sum: " + str(s0)+str(s1)+str(s2))
 
+# any ideas to make the code more efficient? let me know
