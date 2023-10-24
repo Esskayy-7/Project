@@ -1,4 +1,4 @@
-# create an algorithm for the addition of n-digit numbers where n is an integer including decimals
+# create an algorithm for the addition of n-digit numbers where n is an integer
 # Logic behind the algorithm: 
 # Take in two numbers x and y
 # The length of x will be 'a' : len(x)-->a and 'b' for y: len(y)-->b
