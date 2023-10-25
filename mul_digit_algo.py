@@ -78,3 +78,54 @@ answer = [str(j) for j in answer]
 solution = ("").join(answer)
 
 print(solution)
+
+"""
+entered = False
+while entered == False:
+    try:
+        x = int(input("Enter an integer value for x: "))
+        y = int(input("Enter an integer value for y: "))
+        entered = True
+    except:
+        print("integers only!")
+x = str(x)
+y = str(y)
+
+if len(x) > len(y):
+    length = len(x)
+else:
+    length = len(y)
+
+solution = []
+carry = 0
+for i in range(length):
+    try:
+        a = int(x[length-(1 +i)])
+    except:
+        a  = 0
+    try:
+        b  = int(y[length-(1+i)])
+    except:
+        b = 0
+    sum = a + b + carry
+    carry = 0
+    if sum >= 10:
+        sum = sum - 10
+        carry = 1
+    solution.append(str(sum))
+    if carry == 1 and i == (length - 1):
+        solution.extend(["1"])
+
+length = len(solution) - 1
+k = 0
+answer = []
+while k < len(solution):
+    answer.append(solution[length])
+    k += 1
+    length -= 1
+
+answer = [str(j) for j in answer]
+solution = ("").join(answer)
+
+print(solution)
+"""
