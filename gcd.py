@@ -27,9 +27,9 @@ while not entered:
 
 # step 2: set a ceiling as a limit of where the counter n can get to 
 if x < y:
-    ceiling = x
+    ceiling = x/2
 else: 
-    ceiling = y
+    ceiling = y/2
 
 # step 3: create the function to find the gcd
 def gcd_function(x, y, ceiling, div):
@@ -48,10 +48,10 @@ def gcd_function(x, y, ceiling, div):
         if a == 0 and b == 0:
             div *= n
             if p > q:
-                ceiling = q
+                ceiling = q/2
                 return gcd_function(p, q, ceiling, div)
             else:
-                ceiling = p
+                ceiling = p/2
                 return gcd_function(p, q, ceiling, div)
         else:
             n += 1

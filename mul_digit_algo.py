@@ -1,4 +1,4 @@
-# create an algorithm for the addition of n-digit numbers where n is an integer including decimals
+# create an algorithm for the addition of n-digit numbers where n is an integer
 # Logic behind the algorithm: 
 # Take in two numbers x and y
 # The length of x will be 'a' : len(x)-->a and 'b' for y: len(y)-->b
@@ -78,6 +78,7 @@ answer = [str(j) for j in answer]
 solution = ("").join(answer)
 
 print(solution)
+<<<<<<< HEAD
 
 """
 entered = False
@@ -129,3 +130,5 @@ solution = ("").join(answer)
 
 print(solution)
 """
+=======
+>>>>>>> 257f53c7ee608e24b89f334051d26fff93515a82
